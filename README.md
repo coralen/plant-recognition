@@ -2,6 +2,12 @@
 
 ## Overview
 This project focuses on classifying **10 houseplant species** using a **YOLOv8 model**, tackling challenges such as **complex pattern variations** and **subtle inter-class differences**. Through advanced dataset preparation, augmentation strategies, and hyperparameter tuning, the model's accuracy was improved from **70% to 80%**.
+The model is also **accessible via an API**, allowing users to send images and receive predictions remotely. 📌 See [API Access](#-api-access) for details.
+
+![image](https://github.com/user-attachments/assets/efe4ea6e-c1fa-4c98-a0cc-5ae7e607bc55) ![image](https://github.com/user-attachments/assets/3b63b6e2-c024-4289-9ae3-63d1c64cfa97)
+
+
+
 
 ## Project Goals
 * Develop a **robust deep learning model** for plant species classification.
@@ -29,6 +35,10 @@ Upon completion of this project, you will have:
 * Diagnosed and improved **underperforming classes** by applying **oversampling & class weighting**, enhancing class balance and model robustness.
 * Applied **targeted augmentations** (color shifts, blurring, contrast adjustments) to **simulate real-world conditions** and improve generalization.
 * Boosted model accuracy from **70% to 80%** through dataset refinements, augmentation strategies, and hyperparameter tuning.
+
+## 🌍 API Access
+This model is **accessible via an API**, allowing users to send images and receive predictions with a confidence level greater than 0.5.
+To use the model for inference, follow the approach outlined in ```model_inference.ipynb```. The API processes uploaded images and returns predicted species along with bounding box coordinates.
 
 ## 🔧 Installation & Usage
 ####  1. Install Dependencies
