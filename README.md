@@ -4,11 +4,21 @@
 This project focuses on classifying **10 houseplant species** using a **YOLOv8 model**, tackling challenges such as **complex pattern variations** and **subtle inter-class differences**. Through advanced dataset preparation, augmentation strategies, and hyperparameter tuning, the model's accuracy was improved from **70% to 80%**.
 The model is also **accessible via an API**, allowing users to send images and receive predictions remotely. 📌 See [API Access](#-api-access) for details.
 
-![image](https://github.com/user-attachments/assets/efe4ea6e-c1fa-4c98-a0cc-5ae7e607bc55) ![image](https://github.com/user-attachments/assets/3b63b6e2-c024-4289-9ae3-63d1c64cfa97)
+![image](https://github.com/user-attachments/assets/cfe4c5c6-a05d-49ae-9a29-a512d161e1f3) ![image](https://github.com/user-attachments/assets/0612585f-051e-4cb3-acc9-7a59858a6c6e) ![image](https://github.com/user-attachments/assets/b1ebf767-26cb-43ca-9563-a46a2fcde7a5)
 
-
-
-
+### 🌿 Supported Plant Species
+The model can classify the following plants:
+- Aloe Vera
+- Tradescantia
+- Snake plant (Sanseviera)
+- Peace lily
+- Orchid
+- Monstera Deliciosa
+- Echeveria
+- Ctenanthe
+- Chinese Money Plant
+- African Violet
+  
 ## Project Goals
 * Develop a **robust deep learning model** for plant species classification.
 * Optimize dataset labeling using **Florence** and bounding box **normalization**.
