@@ -3,7 +3,8 @@
 ## Overview
 This project focuses on classifying **10 houseplant species** using a **YOLOv8 model**, tackling challenges such as **complex pattern variations** and **subtle inter-class differences**. Through advanced dataset preparation, augmentation strategies, and hyperparameter tuning, the model achieves an **accuracy of 80%**.
 The model is also **accessible via an API**, allowing users to send images and receive predictions remotely.  
-📌 [Launch Demo →](https://huggingface.co/spaces/coralengel/plant-identifier-demo)
+📌 <a href="https://huggingface.co/spaces/coralengel/plant-identifier-demo" target="_blank" rel="noopener noreferrer">Launch Demo →</a>
+
 
 ![image](https://github.com/user-attachments/assets/cfe4c5c6-a05d-49ae-9a29-a512d161e1f3) ![image](https://github.com/user-attachments/assets/0612585f-051e-4cb3-acc9-7a59858a6c6e) ![image](https://github.com/user-attachments/assets/b1ebf767-26cb-43ca-9563-a46a2fcde7a5)
 
